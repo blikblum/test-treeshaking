@@ -1,20 +1,8 @@
-var path = require('path')
+const path = require('path')
 
-var DIST_DIR = 'dist'
+const DIST_DIR = 'dist'
 
-module.exports = {
-  entry: {
-    'classes': './test-classes.js',
-    'lodash-es': './test-lodash-es.js',
-    'lodash-modular': './test-lodash-modular.js',
-    'lodash-next': './test-lodash-next.js',
-    'underscore': './test-underscore.js',
-    'nextbone-all': './test-nextbone-all.js',
-    'nextbone-model': './test-nextbone-model.js',
-    'nextbone-collection': './test-nextbone-collection.js',
-    'nextbone-events': './test-nextbone-events.js',
-    'nextbone-router': './test-nextbone-router.js'
-  },
+const baseConfig = {  
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, DIST_DIR)
@@ -28,3 +16,21 @@ module.exports = {
     symlinks: false
   }
 }
+
+const entries = ['classes',
+  'lodash-es',
+  'lodash-modular',
+  'lodash-next',
+  'underscore',
+  'nextbone-all',
+  'nextbone-model',
+  'nextbone-collection',
+  'nextbone-events',
+  'nextbone-router'
+]
+
+const configs = entries.map(entry => {
+  return Object.assign({entry: {[entry]: `./test-${entry}.js`}}, baseConfig)
+})
+
+module.exports = configs
