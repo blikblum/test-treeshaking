@@ -1,3 +1,3 @@
-import {Model} from './backbone.es6'
+import {Model} from 'nextbone'
 
 var m = new Model()

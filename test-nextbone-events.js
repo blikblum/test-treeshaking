@@ -1,3 +1,3 @@
-import {Events} from './backbone.es6'
+import {Events} from 'nextbone'
 
 var e = new Events()

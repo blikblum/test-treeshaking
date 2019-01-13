@@ -1,4 +1,4 @@
-import {Model, Collection, Events, Router} from './backbone.es6'
+import {Model, Collection, Events, Router} from 'nextbone'
 
 var m = new Model()
 var c = new Collection()

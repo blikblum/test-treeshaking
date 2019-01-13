@@ -1,4 +1,4 @@
-import {Collection} from './backbone.es6'
+import {Collection} from 'nextbone'
 
 
 var c = new Collection()
