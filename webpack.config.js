@@ -2,6 +2,8 @@ const path = require('path')
 
 const DIST_DIR = 'dist'
 
+const underscoreExternal = false
+
 const baseConfig = {  
   output: {
     filename: '[name].js',
@@ -14,6 +16,12 @@ const baseConfig = {
   },
   resolve: {
     symlinks: false
+  },
+  externals: function(context, request, callback) {
+    if (underscoreExternal && request === 'underscore' && context.indexOf('nextbone') !== -1) {
+      return callback(null, 'commonjs ' + request);
+    }
+    callback()
   }
 }
 
