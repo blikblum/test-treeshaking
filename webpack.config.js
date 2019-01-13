@@ -20,7 +20,7 @@ const baseConfig = {
 const entries = ['classes',
   'lodash-es',
   'lodash-modular',
-  'lodash-next',
+  //'lodash-next',
   'underscore',
   'nextbone-all',
   'nextbone-model',
