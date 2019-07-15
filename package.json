@@ -8,20 +8,15 @@
     "prod": "webpack --display=verbose --mode=production"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2"
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "backbone": "^1.3.3",
-    "backbone.marionette": "^4.0.0",
-    "backbone.radio": "^2.0.0",
-    "jquery": "^3.3.1",
-    "lodash-es": "^4.17.11",
-    "nextbone": "^0.6.0",
+    "backbone": "^1.4.0",
+    "lodash": "^4.17.14",
+    "lodash-es": "^4.17.14",
+    "nextbone": "^0.12.0",
+    "nextdash": "^5.0.0",
     "underscore": "^1.8.3"
   }
 }

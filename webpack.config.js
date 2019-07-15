@@ -21,14 +21,19 @@ const baseConfig = {
     if (underscoreExternal && request === 'underscore' && context.indexOf('nextbone') !== -1) {
       return callback(null, 'commonjs ' + request);
     }
+    if (request === 'jquery') {
+      return callback(null, 'commonjs ' + request);
+    }
     callback()
   }
 }
 
-const entries = ['classes',
+const entries = [
+  'classes',  
   'lodash-es',
   'lodash-modular',
-  //'lodash-next',
+  'lodash-next',
+  'backbone',
   'underscore',
   'nextbone-all',
   'nextbone-model',

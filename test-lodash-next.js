@@ -1,45 +1,81 @@
-import uniqueId from 'lodash-next/uniqueId'
-import  clone from 'lodash-next/clone'
-//import  extend from 'lodash-next/extend'
-import  once from 'lodash-next/once'
-import  result from 'lodash-next/result'
-import  defaults from 'lodash-next/defaults'
-import  escape from 'lodash-next/escape'
-//import  iteratee from 'lodash-next/iteratee'
-//import  isEqual from 'lodash-next/isEqual'
-import  has from 'lodash-next/has'
-import  defer from 'lodash-next/defer'
+import uniqueId from 'nextdash/uniqueId'
+//import  clone from 'nextdash/clone'
+//import  extend from 'nextdash/extend'
+import  once from 'nextdash/once'
+import  result from 'nextdash/result'
+import  defaults from 'nextdash/defaults'
+import  escape from 'nextdash/escape'
+//import  iteratee from 'nextdash/iteratee'
+//import  isEqual from 'nextdash/isEqual'
+import  has from 'nextdash/has'
+import  defer from 'nextdash/defer'
 
-import invert from 'lodash-next/invert'
-//import  omit from 'lodash-next/omit'
-import  pick from 'lodash-next/pick'
-//import  isArray from 'lodash-next/isArray'
-import  isString from 'lodash-next/isString'
-import  isFunction from 'lodash-next/isFunction'
-import  isEmpty from 'lodash-next/isEmpty'
-import  isRegExp from 'lodash-next/isRegExp'
-import  isObject from 'lodash-next/isObject'
-import  negate from 'lodash-next/negate'
-import  invoke from 'lodash-next/invoke'
-import  max from 'lodash-next/maxBy'
-import  min from 'lodash-next/minBy'
-import  first from 'lodash-next/first'
-import  initial from 'lodash-next/initial'
+import invert from 'nextdash/invert'
+//import  omit from 'nextdash/omit'
+import  pick from 'nextdash/pick'
+//import  isArray from 'nextdash/isArray'
+import  isString from 'nextdash/isString'
+import  isFunction from 'nextdash/isFunction'
+import  isEmpty from 'nextdash/isEmpty'
+import  isRegExp from 'nextdash/isRegExp'
+import  isObject from 'nextdash/isObject'
+import  negate from 'nextdash/negate'
+import  invoke from 'nextdash/invoke'
+import  max from 'nextdash/maxBy'
+import  min from 'nextdash/minBy'
+import  first from 'nextdash/first'
+import  initial from 'nextdash/initial'
 
-import last from 'lodash-next/last'
-import  drop from 'lodash-next/drop'
-import  without from 'lodash-next/without'
-import  difference from 'lodash-next/difference'
-import  findLastIndex from 'lodash-next/findLastIndex'
-import  shuffle from 'lodash-next/shuffle'
-import  sample from 'lodash-next/sample'
-import  partition from 'lodash-next/partition'
-import  sortBy from 'lodash-next/orderBy'
-import  countBy from 'lodash-next/countBy'
-import  groupBy from 'lodash-next/groupBy'
-import  matches from 'lodash-next/matches'
+import last from 'nextdash/last'
+import  drop from 'nextdash/drop'
+import  without from 'nextdash/without'
+import  difference from 'nextdash/difference'
+import  findLastIndex from 'nextdash/findLastIndex'
+import  shuffle from 'nextdash/shuffle'
+import  sample from 'nextdash/sample'
+import  partition from 'nextdash/partition'
+import  sortBy from 'nextdash/orderBy'
+import  countBy from 'nextdash/countBy'
+import  groupBy from 'nextdash/groupBy'
+import  matches from 'nextdash/matches'
  
 
-uniqueId(), clone(), extend(), once(), result(), defaults(), escape(), iteratee(), isEqual(), has(), defer(),
-invert(), omit(), pick(), isArray(), isString(), isFunction(), isEmpty(), isRegExp(), isObject(), negate(), invoke(), max(), min(), first(), initial(),
-last(), drop(), without(), difference(), findLastIndex(), shuffle(), sample(), partition(), sortBy(), countBy(), groupBy(), matches()
+uniqueId() 
+ extend()
+ once()
+ result()
+ defaults()
+ escape()
+ iteratee()
+ isEqual()
+ has()
+ defer()
+
+invert()
+ omit()
+ pick()
+ isArray()
+ isString()
+ isFunction()
+ isEmpty()
+ isRegExp()
+ isObject()
+ negate()
+ invoke()
+ max()
+ min()
+ first()
+ initial()
+
+last()
+ drop()
+ without()
+ difference()
+ findLastIndex()
+ shuffle()
+ sample()
+ partition()
+ sortBy()
+ countBy()
+ groupBy()
+ matches()
